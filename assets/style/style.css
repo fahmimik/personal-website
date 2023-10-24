@@ -230,7 +230,7 @@ aside .social-media li a:hover {
 
   /* interest */
   #interests {
-    background-color: #f5f3fe;
+    background-color: #fff;
     padding: 6rem 0;
   }
 
@@ -245,7 +245,7 @@ aside .social-media li a:hover {
   .interest {
     padding: 3rem 2rem;
     text-align: center;
-    background: #F4EEE0;
+    background: #fffdf7;
     border-radius: 0.7rem;
   }
 
@@ -256,9 +256,70 @@ aside .social-media li a:hover {
   }
 
   .interest-icon {
-    background: #f5f3fe;
+    background: white;
     width: fit-content;
     margin: 0 auto;
     padding: 1rem 1.3rem;
     border-radius: 0.5rem;
+  }
+
+  .interest-icon svg {
+    fill: #6D5D6E;
+  }
+
+  /* portofolio section */
+  #portofolios {
+    padding: 6rem 0;
+  }
+
+  .portofolio {
+    border-radius: .7rem;
+    overflow: hidden;
+  }
+
+  .portofolio-cover {
+    height: 250px;
+  }
+
+  .portofolio-cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .portofolio-info {
+    padding: 2rem 1rem;
+  }
+
+  .portofolio-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .portofolio h4 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .portofolio-title a svg:hover {
+    fill: #6D5D6E;
+  }
+
+  .portofolio-cover a svg {
+    transition: .5s ease-in-out;
+  }
+
+  .portofolio-tags {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .portofolio-tags div {
+    font-size: 0.7rem;
+    border: 1px solid #6D5D6E;
+    padding: 0.4rem 1rem;
+    color: #4F4557;
   }
