@@ -109,29 +109,29 @@ nav ul li a:hover {
     right: 35px;
 }
 
-/* hero */
-#hero {
+/* fahmimik */
+#fahmimik {
     height: 720px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.hero-name {
+.fahmimik-name {
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
 }
 
-.hero-name span {
+.fahmimik-name span {
     color: #6D5D6E;
 }
 
-.hero-right img {
+.fahmimik-right img {
     width: 90%;
 }
 
-.hero-right {
+.fahmimik-right {
     display: flex;
     justify-content: center;
 }
@@ -226,4 +226,39 @@ aside .social-media li a {
 
 aside .social-media li a:hover {
     color: #6D5D6E;
+  }
+
+  /* interest */
+  #interests {
+    background-color: #f5f3fe;
+    padding: 6rem 0;
+  }
+
+  .interests .pre-tittle {
+    margin: 0 auto;
+  }
+
+  .interests-title {
+    text-align: center;
+  }
+
+  .interest {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #F4EEE0;
+    border-radius: 0.7rem;
+  }
+
+  .interest h4 {
+    margin: 1.5rem 0;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .interest-icon {
+    background: #f5f3fe;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 1.3rem;
+    border-radius: 0.5rem;
   }
