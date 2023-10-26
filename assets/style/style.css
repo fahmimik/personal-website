@@ -157,7 +157,7 @@ nav ul li a:hover {
     content: "";
     width: 30px;
     height: 2px;
-    background: #F4EEE0;
+    background: #B9B4C7;
     position: absolute;
     display: block;
     left: 0;
@@ -247,6 +247,7 @@ aside .social-media li a:hover {
     text-align: center;
     background: #fffdf7;
     border-radius: 0.7rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   }
 
   .interest h4 {
@@ -269,12 +270,14 @@ aside .social-media li a:hover {
 
   /* portofolio section */
   #portofolios {
+    background-color: #fff8e8;
     padding: 6rem 0;
   }
 
   .portofolio {
     border-radius: .7rem;
     overflow: hidden;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   }
 
   .portofolio-cover {
@@ -289,6 +292,7 @@ aside .social-media li a:hover {
 
   .portofolio-info {
     padding: 2rem 1rem;
+    background: white;
   }
 
   .portofolio-title {
@@ -323,3 +327,14 @@ aside .social-media li a:hover {
     padding: 0.4rem 1rem;
     color: #4F4557;
   }
+
+  /* experienced */
+#experienced {
+  padding: 6rem 0;
+}
+
+.experienced-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+}
