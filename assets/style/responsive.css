@@ -1,0 +1,46 @@
+@media screen and (max-width: 1000px) {
+    p{
+      font-size: .9rem;
+      line-height: 1.8rem;
+    }
+    .grid-3{
+        gap: 1rem;
+    }
+    .skills-right ul li{
+        font-size: .9rem;
+    }
+  }
+
+@media screen and (max-width: 825px) {
+/* burger */
+.burger {
+    display: block;
+    cursor: pointer;
+}
+
+nav {
+    position: fixed;
+    width: 25%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    flex-direction: column;
+    background: #fffaf0;
+    border-left: 1px solid #6D5D6E;
+    z-index: 9;
+    transform: translateX(100%);
+}
+nav ul{
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-active {
+    transform: translateX(0);
+}
+}
+
+@media screen and (max-width: 640px) {
+
+}

@@ -136,13 +136,13 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-/* tittle */
-.section-tittle{
-    margin: 1rem 0 4 rem;
+/* title */
+.section-title{
+    margin: 1rem 0 4rem;
     font-size: 2rem;
 }
 
-.pre-tittle {
+.pre-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     color: #4F4557;
@@ -153,7 +153,7 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
-.pre-tittle::before {
+.pre-title::before {
     content: "";
     width: 30px;
     height: 2px;
@@ -165,15 +165,15 @@ nav ul li a:hover {
 }
 
 #about {
-    background-color: #fffdf7;
+    background-color: #fffaf0;
     padding: 6rem 0;
 }
 
-.about .pre-tittle {
+.about .pre-title {
     margin: 0 auto;
 }
 
-.about-tittle {
+.about-title {
     text-align: center;
 }
 
@@ -220,12 +220,12 @@ aside .social-media li {
 aside .social-media li a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #F4EEE0;
+    color: #fffaf0;
     transition: all .1s ease-in-out;
   }
 
 aside .social-media li a:hover {
-    color: #6D5D6E;
+    color: rgb(255, 227, 239);
   }
 
   /* interest */
@@ -234,7 +234,7 @@ aside .social-media li a:hover {
     padding: 6rem 0;
   }
 
-  .interests .pre-tittle {
+  .interests .pre-title {
     margin: 0 auto;
   }
 
@@ -245,7 +245,7 @@ aside .social-media li a:hover {
   .interest {
     padding: 3rem 2rem;
     text-align: center;
-    background: #fffdf7;
+    background: #fffaf0;
     border-radius: 0.7rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   }
@@ -270,7 +270,7 @@ aside .social-media li a:hover {
 
   /* portofolio section */
   #portofolios {
-    background-color: #fff8e8;
+    background-color: #fffaf0;
     padding: 6rem 0;
   }
 
@@ -324,7 +324,7 @@ aside .social-media li a:hover {
   .portofolio-tags div {
     font-size: 0.7rem;
     border: 1px solid #6D5D6E;
-    padding: 0.4rem 1rem;
+    padding: 0.4rem 1.4rem;
     color: #4F4557;
   }
 
@@ -345,7 +345,7 @@ aside .social-media li a:hover {
 }
 
 .experience .line {
-  padding: 0 .7rem;
+  padding: 0 .8rem;
 }
 
 .experience .line div {
@@ -360,5 +360,49 @@ aside .social-media li a:hover {
 }
 
 .experience-years {
-  
+  margin-bottom: 3rem;
+}
+/* dots on line */
+.experience .line div:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #6D5D6E;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+}
+
+.skills-right ul {
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+
+/* footer */
+footer p{
+  padding: .8rem;
+  background: #fffaf0;
+  text-align: center;
+  color: #393646;
+}
+
+.pre-footer {
+  letter-spacing: 0.1rem;
+  position: relative;
+  font-weight: 200;
+}
+
+.pre-footer::after{
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #393646;
+  position: absolute;
+  top: 50%;
 }
