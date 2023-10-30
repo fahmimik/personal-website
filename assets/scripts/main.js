@@ -1,6 +1,6 @@
 //toggle navigation
 const navSlide = () => {
-    const burger = document.querySelector("burger");
+    const burger = document.querySelector(".burger");
     const navLists = document.querySelector("nav");
 
     burger.addEventListener("click", () => {
@@ -8,4 +8,5 @@ const navSlide = () => {
         burger.classList.toggle("toggle-burger");
     });
 };
+
 navSlide();
