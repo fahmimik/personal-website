@@ -172,9 +172,39 @@ nav ul li a:hover {
     top: 50%;
 }
 
+/* aside */
+aside {
+  padding-left: 30px;
+  flex: 1;
+  }
+
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: .7rem;
+  padding: 20px;
+  margin: 2rem;
+  background: white;
+}
+
+/* about */
 #about {
     background-color: #fffaf0;
     padding: 6rem 0;
+}
+.about-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1rem;
 }
 
 .about .pre-title {
@@ -195,46 +225,6 @@ nav ul li a:hover {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* untuk auto fit grid ketika ada space yang kosong*/
     gap: 43px; /*sama dengan 3 rem*/
 }
-
-/* aside */
-aside {
-    position: fixed;
-    inset-block: 0;
-    inset-inline-end: 0;
-  }
-
-aside .social-media {
-    height: 100%;
-    display: flex;
-  }
-  /* basic pengaturan posisi logo social media pada box*/
-aside .social-media ul {
-    padding: 1.5rem 1rem;
-    margin: auto;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
-    background-color: #393646;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-
-aside .social-media li {
-    list-style-type: none;
-  }
-
-aside .social-media li a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #fffaf0;
-    transition: all .1s ease-in-out;
-  }
-
-aside .social-media li a:hover {
-    color: rgb(255, 227, 239);
-  }
 
   /* interest */
   #interests {
@@ -339,6 +329,7 @@ aside .social-media li a:hover {
   /* skills & experience */
 #skills {
   padding: 6rem 0;
+  background: #fff;
 }
 
 .skills-grid {
